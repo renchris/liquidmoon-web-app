@@ -1,7 +1,7 @@
 {
-  "name": "solarbeam-interface",
+  "name": "liquidmoon-web-app",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "analyze": "ANALYZE=true yarn build && serve .next -n",
     "dev": "next dev --port=8000",
