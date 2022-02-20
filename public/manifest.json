@@ -1,8 +1,8 @@
 {
-  "name": "Solarbeam",
-  "short_name": "Solarbeam",
+  "name": "LiquidMoon",
+  "short_name": "LiquidMoon",
   "lang": "en",
-  "description": "Solarbeam - AMM on Moonriver.",
+  "description": "LiquidMoon - Liquid Staking on Moonbeam.",
   "background_color": "#111",
   "theme_color": "#111",
   "dir": "ltr",
