@@ -23,6 +23,7 @@ export const RPC = {
   [ChainId.XDAI]: 'https://rpc.xdaichain.com',
   [ChainId.BSC]: 'https://bsc-dataseed.binance.org/',
   [ChainId.BSC_TESTNET]: 'https://data-seed-prebsc-2-s3.binance.org:8545',
+  [ChainId.MOONBEAM_DEVNET]: 'http://127.0.0.1:9933',
   [ChainId.MOONBEAM_TESTNET]: 'https://rpc.testnet.moonbeam.network',
   [ChainId.AVALANCHE]: 'https://api.avax.network/ext/bc/C/rpc',
   [ChainId.AVALANCHE_TESTNET]: 'https://api.avax-test.network/ext/bc/C/rpc',
@@ -61,7 +62,8 @@ export const injected = new InjectedConnector({
     // 100, // xdai
     // 56, // binance smart chain
     // 97, // binance smart chain testnet
-    // 1287, // moonbase
+    1281, //moondev
+    1287, // moonbase
     1285, // moonriver
     // 43114, // avalanche
     // 43113, // fuji
