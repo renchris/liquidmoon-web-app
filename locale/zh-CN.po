@@ -234,9 +234,10 @@ msgstr "移除数量"
 msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note fee on transfer and rebase tokens are incompatible with Uniswap V3."
 msgstr "在试图执行该交换时发生了错误。你可能需要增加你的滑点容忍度。如果这不起作用，可能与你交易的代币不兼容。注意转移和重新安置代币的费用与Uniswap V3不兼容。"
 
-#: src/components/Header/index.tsx:99
-#~ msgid "Analytics"
-#~ msgstr "分析界面"
+#: src/components/Header/index.tsx:86
+#: src/components/Header/index.tsx:210
+msgid "Analytics"
+msgstr "分析界面"
 
 #: src/features/farm/FarmListItemDetails.tsx:129
 #: src/features/lending/Button.tsx:64
@@ -378,14 +379,15 @@ msgstr "余额"
 #~ msgstr "借款让您在不出售资产的情况下获得流动性。您的借款上限取决于您抵押物的价值。您可以借出您抵押品价值的75%，随时可以还款，并附上利息。"
 
 #: src/components/Header/index.tsx:72
-#: src/components/Header/index.tsx:191
+#: src/components/Header/index.tsx:197
+#: src/pages/bridge/faucet/index.tsx:92
 #: src/pages/bridge/history/index.tsx:227
 #: src/pages/bridge/history/index.tsx:247
-#: src/pages/bridge/index.tsx:390
-#: src/pages/bridge/index.tsx:405
-#: src/pages/bridge/index.tsx:421
-#: src/pages/bridge/index.tsx:463
-#: src/pages/bridge/index.tsx:483
+#: src/pages/bridge/index.tsx:391
+#: src/pages/bridge/index.tsx:406
+#: src/pages/bridge/index.tsx:422
+#: src/pages/bridge/index.tsx:470
+#: src/pages/bridge/index.tsx:490
 msgid "Bridge"
 msgstr "跨链桥"
 
@@ -396,12 +398,12 @@ msgstr "跨链桥"
 #~ msgid "Bridge Token"
 #~ msgstr ""
 
-#: src/pages/bridge/index.tsx:519
+#: src/pages/bridge/index.tsx:526
 msgid "Bridge tokens to and from the Moonriver Network"
 msgstr ""
 
-#: src/pages/bridge/index.tsx:438
-#: src/pages/bridge/index.tsx:455
+#: src/pages/bridge/index.tsx:445
+#: src/pages/bridge/index.tsx:462
 msgid "Bridge {0}"
 msgstr ""
 
@@ -728,6 +730,11 @@ msgstr ""
 #~ msgid "Dont see a pool you joined?"
 #~ msgstr "没有看到您加入的池子吗？"
 
+#: src/components/Header/index.tsx:77
+#: src/components/Header/index.tsx:202
+msgid "Eclipse"
+msgstr ""
+
 #: src/guards/Network/index.tsx:36
 msgid "Either return to the {link}, or change to an available network."
 msgstr "要么返回到{链接}， 要么换到一个可用的网络。"
@@ -814,12 +821,13 @@ msgid "Expired"
 msgstr "过期"
 
 #: src/components/Header/index.tsx:51
-#: src/components/Header/index.tsx:170
+#: src/components/Header/index.tsx:176
 msgid "Farm"
 msgstr "农耕"
 
+#: src/pages/bridge/faucet/index.tsx:118
 #: src/pages/bridge/history/index.tsx:273
-#: src/pages/bridge/index.tsx:509
+#: src/pages/bridge/index.tsx:516
 msgid "Faucet"
 msgstr ""
 
@@ -843,6 +851,7 @@ msgid "Find Pool"
 msgstr "查找池"
 
 #: src/components/Header/More.tsx:45
+#: src/components/Menu.tsx:44
 msgid "Follow us on Medium"
 msgstr ""
 
@@ -906,7 +915,7 @@ msgstr "从"
 msgid "Github"
 msgstr "Github"
 
-#: src/pages/faucet/index.tsx:122
+#: src/pages/bridge/faucet/index.tsx:164
 msgid "Give me some MOVR"
 msgstr ""
 
@@ -981,8 +990,9 @@ msgstr "收获 {0} SOLAR"
 #~ msgid "Historical Total Locked: {0} SUSHI"
 #~ msgstr "锁仓的总数：{0}SUSHI"
 
+#: src/pages/bridge/faucet/index.tsx:105
 #: src/pages/bridge/history/index.tsx:260
-#: src/pages/bridge/index.tsx:496
+#: src/pages/bridge/index.tsx:503
 msgid "History"
 msgstr ""
 
@@ -1216,7 +1226,7 @@ msgid "Lock"
 msgstr "锁定"
 
 #: src/components/Header/index.tsx:67
-#: src/components/Header/index.tsx:186
+#: src/components/Header/index.tsx:192
 msgid "Locker"
 msgstr "锁"
 
@@ -1307,6 +1317,7 @@ msgid "Me"
 msgstr "我"
 
 #: src/components/Header/More.tsx:44
+#: src/components/Menu.tsx:43
 msgid "Medium"
 msgstr ""
 
@@ -1347,8 +1358,8 @@ msgstr "最少可获得的数量"
 #~ msgstr "错过了拍卖？"
 
 #: src/pages/faucet/index.tsx:82
-msgid "Moonriver Faucet"
-msgstr ""
+#~ msgid "Moonriver Faucet"
+#~ msgstr ""
 
 #: src/features/farm/FarmMenu.tsx:31
 msgid "My Farms"
@@ -1368,8 +1379,8 @@ msgstr "我的订单"
 
 #: src/components/Header/index.tsx:80
 #: src/components/Header/index.tsx:196
-msgid "NFT Launchpad"
-msgstr "NFT Launchpad"
+#~ msgid "NFT Launchpad"
+#~ msgstr "NFT Launchpad"
 
 #: src/features/meowshi/MeowshiButton.tsx:110
 #~ msgid "Network not supported yet"
@@ -1453,7 +1464,7 @@ msgstr "打开订单"
 #~ msgid "Open Source"
 #~ msgstr "开源"
 
-#: src/components/Header/index.tsx:114
+#: src/components/Header/index.tsx:120
 msgid "Open main menu"
 msgstr "打开主菜单"
 
@@ -1536,7 +1547,7 @@ msgid "Please type the word \"confirm\" to {0} and lock your tokens for {1}."
 msgstr ""
 
 #: src/components/Header/index.tsx:43
-#: src/components/Header/index.tsx:162
+#: src/components/Header/index.tsx:168
 #: src/pages/exchange/pool/index.tsx:95
 msgid "Pool"
 msgstr "资金池"
@@ -1574,7 +1585,7 @@ msgstr "汇集{0}"
 #~ msgid "Pour a hot bowl of MISO, the new <0>token launchpad</0> from SUSHI"
 #~ msgstr "来一碗热味增汤, Sushi全新的<0>代币Launchpad</0>"
 
-#: src/pages/bridge/index.tsx:633
+#: src/pages/bridge/index.tsx:640
 msgid "Powered by Anyswap Network"
 msgstr ""
 
@@ -1934,7 +1945,7 @@ msgstr "提供{0} {1}和{2} {3}"
 
 #: src/components/ExchangeHeader.tsx:42
 #: src/components/Header/index.tsx:35
-#: src/components/Header/index.tsx:154
+#: src/components/Header/index.tsx:160
 #: src/pages/exchange/swap/[[...tokens]].tsx:569
 #: src/pages/exchange/swap/[[...tokens]].tsx:598
 msgid "Swap"
@@ -2079,7 +2090,7 @@ msgstr "切换专家模式"
 msgid "Token"
 msgstr "代币"
 
-#: src/pages/bridge/index.tsx:547
+#: src/pages/bridge/index.tsx:554
 msgid "Token to bridge:"
 msgstr ""
 
@@ -2221,7 +2232,7 @@ msgstr "解开"
 #~ msgstr "V2奖励器"
 
 #: src/components/Header/index.tsx:59
-#: src/components/Header/index.tsx:178
+#: src/components/Header/index.tsx:184
 msgid "Vaults"
 msgstr ""
 
@@ -2380,7 +2391,7 @@ msgstr "您正在创建一个池"
 msgid "You are on the wrong network"
 msgstr "网络错误"
 
-#: src/pages/bridge/index.tsx:440
+#: src/pages/bridge/index.tsx:447
 msgid "You are sending {0} {1} from {2}"
 msgstr ""
 
@@ -2412,7 +2423,7 @@ msgstr "你收到<0>（至少）：</0>"
 msgid "You will receive"
 msgstr "您将收到"
 
-#: src/pages/bridge/index.tsx:443
+#: src/pages/bridge/index.tsx:450
 msgid "You will receive {0} {1} on {2}"
 msgstr ""
 
